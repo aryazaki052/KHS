@@ -285,6 +285,21 @@
   background: radial-gradient(circle, rgba(237, 171, 27, 1) 28%, rgba(234, 169, 42, 1) 55%, rgba(232, 152, 46, 1) 97%);
 }
 
+.kepengurusan h1 {
+  font-family: 'Patua One', cursive;
+  padding-top: 10px;
+  color: black;
+  border: 1px solid red;
+}
+
+.slider-card h6 {
+  font-family: 'Dai Banna SIL', serif;
+}
+
+.slider-card p {
+  font-family: 'Quicksand', sans-serif;
+}
+
 /* akhir kepengurusan */
 
 
