@@ -49,7 +49,7 @@
   padding-top: 0;
   border: 0px;
   /* position: relative; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .carousel img {
@@ -283,6 +283,7 @@
 .kepengurusan-wrap {
   margin-top: 80px;
   background: radial-gradient(circle, rgba(237, 171, 27, 1) 28%, rgba(234, 169, 42, 1) 55%, rgba(232, 152, 46, 1) 97%);
+  position: relative;
 }
 
 .kepengurusan h1 {
@@ -300,6 +301,11 @@
 }
 
 /* akhir kepengurusan */
+
+/* gallery */
+
+/* akhir gallery */
+
 
 
 /* responsive */
