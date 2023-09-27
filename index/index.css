@@ -248,7 +248,7 @@
   color: rgba(0, 0, 0, 0.486)
 }
 
-.card-body a {
+.link-shortcut a {
   background-color: rgb(148, 101, 30);
   border: none;
   cursor: pointer;
@@ -302,9 +302,59 @@
 
 /* akhir kepengurusan */
 
-/* gallery */
+/* berita */
 
-/* akhir gallery */
+
+.berita_terkini {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.berita_terkini h1 {
+  padding-right: 10px;
+}
+
+.border_berita {
+  display: block;
+  width: 73%;
+  height: 4px;
+  background-color: black;
+}
+
+
+.berita {
+  padding-top: 20px;
+}
+
+.kotak-berita {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.link-berita a {
+  background-color: rgb(226, 114, 22);
+  border: none;
+  cursor: pointer;
+}
+
+.img-hover-zoom {
+  overflow: hidden;
+  /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.2);
+}
+
+/* akhir berita */
 
 
 
@@ -358,6 +408,14 @@
   }
 
   /* akhir shortcut */
+
+  .berita_terkini h1 {
+    font-size: 30px;
+  }
+
+  .border_berita {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -433,6 +491,22 @@
 
   /* akhir shortcut */
 
+  /* berita */
+  .berita {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .berita_terkini h1 {
+    font-size: 20px;
+    width: 140px;
+  }
+
+  .border_berita {
+    width: 70%;
+    padding-right: 0;
+    margin-right: 0;
+  }
 
 }
 
@@ -449,5 +523,17 @@
   .lingkaran {
     width: 130px;
     height: 130px;
+  }
+
+  /* berita */
+  .berita_terkini h1 {
+    font-size: 20px;
+    width: 145px;
+  }
+
+  .border_berita {
+    width: 50%;
+    padding-right: 0;
+    margin-right: 0;
   }
 }
